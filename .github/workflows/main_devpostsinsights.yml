@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'devpostsinsights'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC499A0F4A28414984D89AC8C980BF22 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6644EC92E7F845608BF688FC86F13197 }}
