@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-# from pysentimiento import create_analyzer
-# analyzer = create_analyzer(task="sentiment", lang="es")
+from pysentimiento import create_analyzer
+analyzer = create_analyzer(task="sentiment", lang="es")
 
 def index(request):
     print('Request for index page received')
