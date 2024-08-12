@@ -107,10 +107,11 @@ celerybeat.pid
 .venv
 .lvenv
 env/
-lenv/
-lenv/*
+lvenv/
+lvenv/*
 venv/
 ENV/
+LVENV/
 LENV/
 env.bak/
 venv.bak/
